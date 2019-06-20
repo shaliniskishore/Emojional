@@ -44,12 +44,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="118"/>
                                 <state key="normal" title="🌹"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K35-aJ-a6T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tn-Hc-FKX">
                                 <rect key="frame" x="128" y="354" width="159" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="118"/>
                                 <state key="normal" title="🌵"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hua-AG-Pph"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80166919936933279" green="1" blue="0.73256317166901752" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
